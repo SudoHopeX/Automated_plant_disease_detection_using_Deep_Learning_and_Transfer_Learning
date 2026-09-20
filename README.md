@@ -200,7 +200,25 @@ Recommendation Generation → User Display
 - Deployment
    * Streamlit RAM constraints
    * Model loading time depends on cold start
- 
+
+## Usages (Minimal Setup)
+
+#### 1. Clone a repo (e.g., the LLM-advisory one)
+```
+git clone https://github.com/Ishaaq09/Automated_plant_disease_detection_using_Deep_Learning_and_Transfer_Learning
+cd Automated_plant_disease_detection_using_Deep_Learning_and_Transfer_Learning
+```
+
+#### 2. Install dependencies
+```
+pip install -r requirements.txt
+```
+
+#### 3. Run (dataset auto-downloads from Hugging Face)
+```
+streamlit run app.py   
+ ```
+
 ## Future Improvements
 
 - Confidence calibration (Temperature Scaling)
